@@ -19,9 +19,9 @@ openiban.com documentation: [https://openiban.com/](https://openiban.com/)
     
     require 'vendor/autoload.php';
     
-    use OpenIban\OpenIbanClient;
+    use OpenIban\Client;
     
-    $client = new OpenIbanClient();
+    $client = new Client();
     $IBAN   = 'DE89370400440532013000';
     
     $check1 = $client->validate($IBAN); // $validateBankCode = false, $getBIC = false
@@ -32,9 +32,9 @@ openiban.com documentation: [https://openiban.com/](https://openiban.com/)
 
     require 'vendor/autoload.php';
     
-    use OpenIban\OpenIbanClient;
+    use OpenIban\Client;
     
-    $client = new OpenIbanClient();
+    $client = new Client();
     $IBANData = $client->calculate('DE', '37040044', '0532013000');
     
 ## Licence
