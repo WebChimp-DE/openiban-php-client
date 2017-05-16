@@ -39,4 +39,4 @@ openiban.com documentation: [https://openiban.com/](https://openiban.com/)
     
 ## Licence
 
-This project uses the (GNU General Public License v3.0)[LICENCE.md].
+This project uses the [GNU General Public License v3.0](LICENCE.md).
