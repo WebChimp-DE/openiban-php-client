@@ -5,7 +5,7 @@ use OpenIban\Client;
 
 $client = new Client(['IBAN' => '']);
 echo '<pre>';
-echo "\$client = new OpenIbanClient(['IBAN' => 'DE89370400440532013000']);" . PHP_EOL;
+echo "\$client = new Client(['IBAN' => 'DE89370400440532013000']);" . PHP_EOL;
 echo "\$client->validate() => " . PHP_EOL;
 var_dump($client->validate('DE89370400440532013000'));
 echo PHP_EOL;
