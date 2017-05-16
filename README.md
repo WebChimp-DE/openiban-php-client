@@ -1,3 +1,9 @@
+[![GitHub issues](https://img.shields.io/github/issues/Crease29/openiban-php-client.svg)](https://github.com/Crease29/openiban-php-client/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Crease29/openiban-php-client.svg)](https://github.com/Crease29/openiban-php-client/network)
+[![GitHub stars](https://img.shields.io/github/stars/Crease29/openiban-php-client.svg)](https://github.com/Crease29/openiban-php-client/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/Crease29/openiban-php-client/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/Crease29/openiban-php-client.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+
 # OpenIBAN.com PHP Client
 
 If you have any questions, drop me an email: [info@webchimp.de](mailto:info@webchimp.de)
