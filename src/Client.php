@@ -27,13 +27,6 @@ class Client
     const ROUTE_CALCULATE = '/calculate';
 
     /**
-     * OpenIbanClient constructor.
-     */
-    public function __construct()
-    {
-    }
-
-    /**
      * @param $url
      * @throws \Exception
      *
@@ -60,6 +53,13 @@ class Client
         return $output ? json_decode($output, true) : $output;
     }
 
+    /**
+     * Adds query string to given URL.
+     *
+     * @param $url
+     * @param array $params
+     * @return string
+     */
     private function buildUrl($url, $params = [])
     {
         $query = http_build_query($params);
