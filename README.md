@@ -44,6 +44,10 @@ openiban.com documentation: [https://openiban.com/](https://openiban.com/)
     $client = new Client();
     $IBANData = $client->calculate('DE', '37040044', '0532013000');
     
+### Running tests with PHPUnit
+
+    $ $(which phpunit) --bootstrap vendor/autoload.php tests
+    
 ## Licence
 
 This project uses the [GNU General Public License v3.0](LICENCE.md).
