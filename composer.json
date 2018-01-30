@@ -2,7 +2,7 @@
     "name": "crease29/openiban-client",
     "description": "PHP client for openiban.com API",
     "type": "library",
-    "license": "GNU General Public License v3.0",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Kai Neuwerth",
