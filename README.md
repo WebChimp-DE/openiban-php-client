@@ -7,6 +7,8 @@
 
 # OpenIBAN.com PHP Client
 
+> **[openiban.com](https://openiban.com/) has shut down. You can only use this package if you host your own openiban endpoint.**
+
 If you have any questions, drop me an email: [info@webchimp.de](mailto:info@webchimp.de)
 
 Feel free to contribute! :)
